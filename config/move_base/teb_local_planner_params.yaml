@@ -48,8 +48,8 @@ TebLocalPlannerROS:
   #*******************************************************************************
   # GoalTolerance
   #*******************************************************************************
-  xy_goal_tolerance: 0.15   #目标 xy 偏移容忍度
-  yaw_goal_tolerance: 0.1   #目标 角度 偏移容忍度
+  xy_goal_tolerance: 0.8   #目标 xy 偏移容忍度
+  yaw_goal_tolerance: 20.0   #目标 角度 偏移容忍度
   free_goal_vel: false      #允许机器人以最大速度驶向目的地，为False时，车到达终点时的目标速度为0；
   #  complete_global_plan: True
 

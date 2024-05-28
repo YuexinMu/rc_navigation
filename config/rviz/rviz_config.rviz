@@ -80,40 +80,79 @@ Visualization Manager:
     - Alpha: 1
       Class: rviz/RobotModel
       Collision Enabled: false
-      Enabled: false
+      Enabled: true
       Links:
         All Links Enabled: true
         Expand Joint Details: false
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_back_pivot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_back_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_front_pivot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_front_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        location_action:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        radar_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_back_pivot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_back_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_front_pivot:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_front_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
       Update Interval: 0
-      Value: false
+      Value: true
       Visual Enabled: true
     - Class: rviz/TF
-      Enabled: true
+      Enabled: false
       Frame Timeout: 15
       Frames:
         All Enabled: false
-        base_link:
-          Value: true
-        front_wheel:
-          Value: false
-        left_wheel:
-          Value: false
-        location_action:
-          Value: false
-        map:
-          Value: false
-        odom:
-          Value: true
-        radar_link:
-          Value: false
-        right_wheel:
-          Value: false
       Marker Alpha: 1
       Marker Scale: 3
       Name: TF
@@ -121,21 +160,9 @@ Visualization Manager:
       Show Axes: true
       Show Names: true
       Tree:
-        map:
-          odom:
-            base_link:
-              front_wheel:
-                {}
-              left_wheel:
-                {}
-              location_action:
-                {}
-              radar_link:
-                {}
-              right_wheel:
-                {}
+        {}
       Update Interval: 0
-      Value: true
+      Value: false
     - Alpha: 0.699999988079071
       Class: rviz/Map
       Color Scheme: map
@@ -344,7 +371,7 @@ Visualization Manager:
       Unreliable: false
       Value: true
     - Alpha: 1
-      Axes Length: 2
+      Axes Length: 0.5
       Axes Radius: 0.10000000149011612
       Class: rviz/PoseWithCovariance
       Color: 255; 25; 0
@@ -402,7 +429,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 24.575489044189453
+      Distance: 9.729844093322754
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -410,17 +437,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -1.2497295141220093
-        Y: 1.225793480873108
-        Z: -2.413073778152466
+        X: -0.2073390781879425
+        Y: -0.9851600527763367
+        Z: -0.5210126042366028
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.2847965955734253
+      Pitch: 0.4597967863082886
       Target Frame: <Fixed Frame>
-      Yaw: 2.3022022247314453
+      Yaw: 1.0990276336669922
     Saved: ~
 Window Geometry:
   Displays:
@@ -439,4 +466,4 @@ Window Geometry:
     collapsed: false
   Width: 2448
   X: 72
-  Y: 927
+  Y: 27

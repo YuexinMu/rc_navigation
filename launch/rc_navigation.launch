@@ -9,7 +9,7 @@
 
     <group if="$(arg using_gmaping)">
         <include file="$(find rc_navigation)/launch/gmapping/gmapping.launch">
-            <arg name="load_rviz" value="false"/>
+            <arg name="load_rviz" value="true"/>
         </include>
     </group>
 
